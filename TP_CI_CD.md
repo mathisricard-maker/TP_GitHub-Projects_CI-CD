@@ -383,6 +383,8 @@ La CI doit démarrer et échouer sur `test_add`. Dans **Checks**, ouvrez le cont
 
 **Question 5.** Pourquoi le test détecte-t-il la régression ? Que vous apprend le journal que l’icône rouge ne montre pas ?
 
+**Réponse :**
+
 ## 7. Corriger, pousser et relire
 
 Dans `app/calculator.py`, remettez `return a + b`. Relancez `python -m pytest -v` : les six tests doivent réussir. Enregistrez aussi dans le `README.md` du projet une courte trace du diagnostic : cause de l’échec, correction et résultat après correction.
