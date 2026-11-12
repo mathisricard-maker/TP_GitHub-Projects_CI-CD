@@ -41,7 +41,7 @@ L'échec intentionnel à été créé à cause de la modification de la fonction
 
 **Arborescence du projet :**
 
-<img src="arbo.png" alt="img" width="600"/>
+<img src="img/arbo.png" alt="img" width="600"/>
 
 ---
 
@@ -49,11 +49,11 @@ L'échec intentionnel à été créé à cause de la modification de la fonction
 
 Screenshot d'erreur du test après le pull request :
 
-<img src="check_failed.png" alt="img" width="600"/>
+<img src="img/check_failed.png" alt="img" width="600"/>
 
 Screenshot après correction :
 
-<img src="check_passed.png" alt="img" width="600"/>
+<img src="img/check_passed.png" alt="img" width="600"/>
 
 
 **RICARD Mathis**
