@@ -34,12 +34,26 @@ Le workflow `.github/workflows/ci-cd.yml` s’exécute sur les push vers `main` 
 
 URL Dépôt : https://github.com/mathisricard-maker/TP_GitHub-Projects_CI-CD
 - La branche principale est "main"
-- 
 
 
-L'échec intentionnel à été créé à cause de la modification du "a + b" qui a été remplacer par "a - b". On faisant une pull request et prennant la bonne solution le problème est réparé.
+
+L'échec intentionnel à été créé à cause de la modification de la fonction d'addition "a + b" qui a été remplacé par "a - b". En faisant une pull request et prennant la bonne solution le problème est réparé.
 
 **Arborescence du projet :**
 
-![alt text](image.png)
+<img src="arbo.png" alt="img" width="600"/>
 
+---
+
+### Erreur de la CI à cause du pull request :
+
+Screenshot d'erreur du test après le pull request :
+
+<img src="check_failed.png" alt="img" width="600"/>
+
+Screenshot après correction :
+
+<img src="check_passed.png" alt="img" width="600"/>
+
+
+**RICARD Mathis**
