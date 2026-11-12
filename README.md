@@ -26,10 +26,6 @@ python -m pytest -v
 
 Résultat attendu : `6 passed`. Le dossier `.venv` et les fichiers de cache sont exclus du dépôt par `.gitignore`.
 
-## CI GitHub Actions
-
-Le workflow `.github/workflows/ci-cd.yml` s’exécute sur les push vers `main` et les pull requests qui ciblent `main`. Il installe Python 3.11 et pytest, puis exécute `python -m pytest -v`. L’onglet **Actions** du dépôt permet de consulter les étapes et leurs journaux.
-
 ## Compte rendu :
 
 URL Dépôt : https://github.com/mathisricard-maker/TP_GitHub-Projects_CI-CD
@@ -37,7 +33,7 @@ URL Dépôt : https://github.com/mathisricard-maker/TP_GitHub-Projects_CI-CD
 
 
 
-L'échec intentionnel à été créé à cause de la modification de la fonction d'addition "a + b" qui a été remplacé par "a - b". En faisant une pull request et prennant la bonne solution le problème est réparé.
+L'échec intentionnel suivant à été créé à cause de la modification de la fonction d'addition "a + b" qui a été remplacé par "a - b". En faisant une pull request et prennant la bonne solution le problème est réparé.
 
 **Arborescence du projet :**
 
