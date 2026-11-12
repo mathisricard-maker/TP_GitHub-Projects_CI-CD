@@ -30,5 +30,16 @@ Résultat attendu : `6 passed`. Le dossier `.venv` et les fichiers de cache sont
 
 Le workflow `.github/workflows/ci-cd.yml` s’exécute sur les push vers `main` et les pull requests qui ciblent `main`. Il installe Python 3.11 et pytest, puis exécute `python -m pytest -v`. L’onglet **Actions** du dépôt permet de consulter les étapes et leurs journaux.
 
+## Compte rendu :
+
+URL Dépôt : https://github.com/mathisricard-maker/TP_GitHub-Projects_CI-CD
+- La branche principale est "main"
+- 
+
 
 L'échec intentionnel à été créé à cause de la modification du "a + b" qui a été remplacer par "a - b". On faisant une pull request et prennant la bonne solution le problème est réparé.
+
+**Arborescence du projet :**
+
+![alt text](image.png)
+

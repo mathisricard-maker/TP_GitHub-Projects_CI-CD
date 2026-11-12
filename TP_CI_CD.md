@@ -340,6 +340,8 @@ Ouvrez les journaux pour identifier les commandes réellement exécutées.
 
 **Question 4.** Pourquoi le premier push sur `main` déclenche-t-il automatiquement la CI alors qu'aucune pull request n'a encore été créée ?
 
+**Réponse :** Parce que en faisant le push le programme est placé dans le dépôt distant et donc n'a pas besoin de pull request.
+
 ## 6. Provoquer une erreur et lire le diagnostic
 
 Créez une branche de travail :
